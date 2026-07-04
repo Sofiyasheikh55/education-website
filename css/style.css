@@ -1351,40 +1351,59 @@ font-size:42px;
 
 }
 
-@media(max-width:768px){
+/* ==========================
+   Footer Responsive
+========================== */
 
-.footer{
+@media (max-width: 768px) {
 
-text-align:center;
+    .footer {
+        padding: 50px 0 20px;
+    }
 
+    .footer .row {
+        row-gap: 25px;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .footer-text {
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    .footer ul li {
+        margin-bottom: 8px;
+    }
+
+    .contact-info li {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .social-icons {
+        justify-content: flex-start;
+    }
+
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer-bottom a {
+        margin: 0 8px;
+    }
 }
-
-.social-icons{
-
-justify-content:center;
-
-}
-
-.contact-info li{
-
-justify-content:center;
-
-}
-
-.footer-bottom{
-
-flex-direction:column;
-
-}
-
-.footer-bottom a{
-
-margin:0 10px;
-
-}
-
-}
-
 
 /*=================================
         SCROLL TO TOP
