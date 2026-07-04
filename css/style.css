@@ -176,6 +176,14 @@ img{
 
 }
 
+
+@media screen and (max-width: 768px) {
+    .hero-content{
+  margin-top: -80px;
+    }
+}
+
+
 .hero-tag{
 
     display:inline-block;
