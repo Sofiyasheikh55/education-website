@@ -288,12 +288,12 @@ img{
 
 /* Counter */
 
-@media (max-width: 768px){
+/* Hide Hero Counter on Mobile */
 
-    .hero-counter{
-        display:none;
+@media screen and (max-width: 768px) {
+    .hero-counter {
+        display: none !important;
     }
-
 }
 
 /*======== Counter =========*/
