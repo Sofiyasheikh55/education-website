@@ -288,7 +288,13 @@ img{
 
 /* Counter */
 
+@media (max-width: 768px){
 
+    .hero-counter{
+        display:none;
+    }
+
+}
 
 /*======== Counter =========*/
 
